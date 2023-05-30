@@ -278,3 +278,5 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,webstorm,node,dotenv
+# Local Netlify folder
+.netlify
