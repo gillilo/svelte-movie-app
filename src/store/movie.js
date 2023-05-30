@@ -51,7 +51,7 @@ export async function searchMovies(payload) {
       //   ...payload,
       //   page
       // })
-      const res = await axios.post('./netlify/functions/movie', {
+      const res = await axios.post('/.netlify/functions/movie', {
         ...payload,
         page
       })
@@ -71,7 +71,7 @@ export async function searchMovieWithId(id) {
   //   id
   // })
   // console.log(res)
-  const res = await axios.post('./netlify/functions/movie', {
+  const res = await axios.post('/.netlify/functions/movie', {
     id
   })
 
